@@ -27,19 +27,23 @@ Tasks TE DETAJUARA , SCROLL DOWN N FUND FARE TO SEE THE OVERALL TABLE
 Nr1&Nr2 (deri sa t vi un lol)
 
 1.1 Load and inspect data 
-  - load the dataset 
-  - check data types 
-  - check number of rows and cols
-  - target variable distribution
+  - load the dataset ✅
+  - check data types ✅
+  - check number of rows and cols ✅
+  - target variable distribution ✅
+
+1.1 COMPLETE ✅😼
 
 1.2 Data Cleaning  (NR1&NR2)
 
-  - Identify missing or misleading values (e.g. "unknown")
-  - Decide how to handle them:
-  - Replace with most frequent value OR
-  - Keep as a separate category
-  - Remove data leakage variable (duration)
-  - Check and fix inconsistent values
+  - Identify missing or misleading values (e.g. "unknown") ✅
+  - Decide how to handle them: ✅
+        - Replace with most frequent value OR
+        - Keep as a separate category
+  - Remove data leakage variable (duration) ✅
+  - Check and fix inconsistent values ✅
+
+1.2 COMPLETE ✅😼
 
 1.3 Encoding Categorical Variables   (NR1&NR2)
 
@@ -191,22 +195,6 @@ ____________________________________________________________________
 
 u GUYS can make changes te ky file i notepadit
 mund t lini notes nese kemi perfunduar nje step
-90% te ktyre gjerave i have no idea ca behet so please leave notes si e bet si process to make it easier for us begginers 👉👈
-punet do i ndajm step by steps jo direct ne fillim se sic that zysha everyone of us dueht te dije se ca ka bere tjetri :)
-
-
-
-tasks/nentemat / timeframe 	🔹 1. Data Understanding & Preparation	🔹 2. Exploratory Data Analysis (EDA)	🔹 3. Dataset Setup	🔹 4. Baseline Model	🔹 5. Modeling	🔹 6. Model Evaluation	🔹 7. Final Deliverables		
-1	Load and inspect data	target variable analysis	Data Splitting	baseline creation	cart decision tree	performance metrics	7.1 Jupyter Notebook		
-2	data cleaning	eda with response overlay	Class Imbalance Handling	baseline evaluation	random forest	threshold selection	7.2 Management Report		
-3	Encoding Categorical Variables	Contingency Tables				model comparison			
-4	Feature scaling	EDA Insights Summary							
-5	outlier handling								
-timeframe	MAX 
-2h	MAX 2 h	MAX 1 h	Max 45min	max 2h	max 1h	max 1h		
-DONE									
-									
-
 
 Steps shkurt ca do behet me data qe kemi:
 1. Clean the data
