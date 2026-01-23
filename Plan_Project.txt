@@ -1,0 +1,217 @@
+-----------------------------Plani i projektit------------------------
+
+--->What is this project about:
+         Is about predicting YES or No. Nqs nje klient do bej subcribe te kjo term deposit apo jo. Dataseti ka te dhena nga klientet dhe ne do bejm parashikim who is more likely te hapi nje deposit ne bank.
+===========================================
+
+tools qe do perdoren m s shumti:
+1.python (ne VS code)
+2.pandas
+3.NumPy
+4.Matplotlib
+5.Jupyter notebook
+6.ate programin qe tha zysha per dokumentimin e python (i dont remember its name :)
+
++----------------------------------------------+
+
++--------------+
+| Aleks = Nr 1 |
+| Ambra = Nr 2 |
+| Dea = Nr 3   |
++--------------+
+
+Tasks TE DETAJUARA , SCROLL DOWN N FUND FARE TO SEE THE OVERALL TABLE
+
+1-------DATA UNDERSTANDING AND PREPARATION --------      timeframe: deri ne 12 kur t vi un XP
+
+Nr1&Nr2 (deri sa t vi un lol)
+
+1.1 Load and inspect data 
+  - load the dataset 
+  - check data types 
+  - check number of rows and cols
+  - target variable distribution
+
+1.2 Data Cleaning  (NR1&NR2)
+
+  - Identify missing or misleading values (e.g. "unknown")
+  - Decide how to handle them:
+  - Replace with most frequent value OR
+  - Keep as a separate category
+  - Remove data leakage variable (duration)
+  - Check and fix inconsistent values
+
+1.3 Encoding Categorical Variables   (NR1&NR2)
+
+  - Identify all categorical columns (job, marital, education, etc.)
+  - Convert categories into numeric values using:
+  - One-Hot Encoding
+  - Verify encoded dataset is machine-readable
+
+1.4 Feature Scaling   ### ktu vij un per support moral XD
+
+  - Identify numerical variables (age, balance, etc.)
+  - Standardize numeric features using: StandardScaler
+  - Apply scaling after train/test split
+
+1.5 Outlier Handling
+
+Detect outliers using:
+IQR method
+Decide strategy:
+Keep
+Cap (winsorize)
+Remove (if extreme)
+Apply outlier treatment consistently
+
+----------------------------------------------------------------------------------------
+🔹 2. Exploratory Data Analysis (EDA)
+2.1 Target Variable Analysis
+Plot bar chart of target variable (YES vs NO)
+Calculate percentage of subscribers vs non-subscribers
+
+2.2 EDA with Response Overlay
+
+Create bar plots for categorical features with YES/NO overlay
+Create histograms for numerical features with YES/NO overlay
+Analyze which features influence subscription
+
+2.3 Contingency Tables
+Create contingency tables:
+Feature vs Target
+Calculate proportions and patterns
+
+2.4 EDA Insights Summary
+
+Summarize key findings:Important features
+Patterns linked to subscription
+Document insights for report
+
+------------------------------------------------------------------------------
+🔹 3. Dataset Setup
+
+3.1 Data Splitting
+Split dataset into:
+Training set
+Validation set
+Test set
+Use random seed for reproducibility
+Verify randomness and class distribution
+
+3.2 Class Imbalance Handling
+
+Check imbalance in target variable
+Apply balancing technique on training set only:
+Oversampling OR undersampling
+Confirm balanced distribution
+
+_______________________________________________________________________________
+
+🔹 4. Baseline Model
+4.1 Baseline Creation
+
+Create a simple baseline model:
+Always predict majority class (NO)
+Calculate baseline accuracy
+
+4.2 Baseline Evaluation
+
+Compute confusion matrix
+Use baseline as reference for improvement
+
+_______________________________________________________________
+
+🔹 5. Modeling
+5.1 CART (Decision Tree)
+
+Train a Decision Tree classifier
+Tune hyperparameters:
+Max depth
+Minimum samples per leaf
+Visualize decision tree (optional)
+
+5.2 Random Forest
+
+Train Random Forest model
+Tune parameters:
+Number of trees
+Max depth
+Compare performance with CART
+
+_______________________________________________________________
+🔹 6. Model Evaluation
+6.1 Performance Metrics
+
+Compute:
+Confusion Matrix
+Accuracy
+Precision
+Recall
+Sensitivity & Specificity
+Fβ-score
+
+6.2 Threshold Selection
+
+Test different probability thresholds
+Analyze trade-off between:
+Precision vs Recall
+Select optimal threshold based on business goal
+
+6.3 Model Comparison
+
+Compare:
+Baseline vs CART vs Random Forest
+Select best performing model
+
+_________________________________________________________________________
+
+🔹 7. Final Deliverables
+7.1 Jupyter Notebook
+
+Well-structured notebook with:
+Data cleaning
+EDA
+Modeling
+Evaluation
+Clear comments and explanations
+
+7.2 Management Report
+
+Short and non-technical
+Include:
+Business problem
+Data overview
+Model comparison
+Final recommendation
+
+____________________________________________________________________
+
+
+###########  COMMENTS ############
+
+u GUYS can make changes te ky file i notepadit
+mund t lini notes nese kemi perfunduar nje step
+90% te ktyre gjerave i have no idea ca behet so please leave notes si e bet si process to make it easier for us begginers 👉👈
+punet do i ndajm step by steps jo direct ne fillim se sic that zysha everyone of us dueht te dije se ca ka bere tjetri :)
+
+
+
+tasks/nentemat / timeframe 	🔹 1. Data Understanding & Preparation	🔹 2. Exploratory Data Analysis (EDA)	🔹 3. Dataset Setup	🔹 4. Baseline Model	🔹 5. Modeling	🔹 6. Model Evaluation	🔹 7. Final Deliverables		
+1	Load and inspect data	target variable analysis	Data Splitting	baseline creation	cart decision tree	performance metrics	7.1 Jupyter Notebook		
+2	data cleaning	eda with response overlay	Class Imbalance Handling	baseline evaluation	random forest	threshold selection	7.2 Management Report		
+3	Encoding Categorical Variables	Contingency Tables				model comparison			
+4	Feature scaling	EDA Insights Summary							
+5	outlier handling								
+timeframe	MAX 
+2h	MAX 2 h	MAX 1 h	Max 45min	max 2h	max 1h	max 1h		
+DONE									
+									
+
+
+Steps shkurt ca do behet me data qe kemi:
+1. Clean the data
+2. EDA explore the data
+3. Prepare the dataset
+4. Build models
+5. Evaluate results
+6. Nxir nje outcome
