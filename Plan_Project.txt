@@ -52,11 +52,16 @@ Nr1&Nr2 (deri sa t vi un lol)
   - One-Hot Encoding
   - Verify encoded dataset is machine-readable
 
-1.4 Feature Scaling   ### ktu vij un per support moral XD
+                  1.3 DONE ✅😼
+
+1.4 Feature Scaling  
 
   - Identify numerical variables (age, balance, etc.)
   - Standardize numeric features using: StandardScaler
   - Apply scaling after train/test split
+
+                  1.4 DONE ✅😼
+
 
 1.5 Outlier Handling
 
@@ -68,6 +73,9 @@ Cap (winsorize)
 Remove (if extreme)
 Apply outlier treatment consistently
 
+               1.5 DONE ✅😼
+
+               STEP 1 FULLY COMPLETED
 ----------------------------------------------------------------------------------------
 🔹 2. Exploratory Data Analysis (EDA)
 2.1 Target Variable Analysis
