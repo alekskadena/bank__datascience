@@ -47,18 +47,18 @@ Nr1&Nr2 (deri sa t vi un lol)
 
 1.3 Encoding Categorical Variables   (NR1&NR2)
 
-  - Identify all categorical columns (job, marital, education, etc.)
-  - Convert categories into numeric values using:
-  - One-Hot Encoding
-  - Verify encoded dataset is machine-readable
+  - Identify all categorical columns (job, marital, education, etc.) ✅
+  - Convert categories into numeric values using: ✅
+  - One-Hot Encoding ✅
+  - Verify encoded dataset is machine-readable ✅
 
                   1.3 DONE ✅😼
 
 1.4 Feature Scaling  
 
-  - Identify numerical variables (age, balance, etc.)
-  - Standardize numeric features using: StandardScaler
-  - Apply scaling after train/test split
+  - Identify numerical variables (age, balance, etc.) ✅
+  - Standardize numeric features using: StandardScaler ✅
+  - Apply scaling after train/test split ✅
 
                   1.4 DONE ✅😼
 
@@ -66,12 +66,12 @@ Nr1&Nr2 (deri sa t vi un lol)
 1.5 Outlier Handling
 
 Detect outliers using:
-IQR method
-Decide strategy:
-Keep
-Cap (winsorize)
-Remove (if extreme)
-Apply outlier treatment consistently
+IQR method ✅
+Decide strategy: ✅
+  Keep
+  Cap (winsorize)
+  Remove (if extreme)
+Apply outlier treatment consistently ✅
 
                1.5 DONE ✅😼
 
@@ -79,18 +79,20 @@ Apply outlier treatment consistently
 ----------------------------------------------------------------------------------------
 🔹 2. Exploratory Data Analysis (EDA)
 2.1 Target Variable Analysis
-Plot bar chart of target variable (YES vs NO)
-Calculate percentage of subscribers vs non-subscribers
+Plot bar chart of target variable (YES vs NO) ✅
+Calculate percentage of subscribers vs non-subscribers ✅
+
+2.1 COMPLETE ✅😼
 
 2.2 EDA with Response Overlay
 
-Create bar plots for categorical features with YES/NO overlay
-Create histograms for numerical features with YES/NO overlay
+Create bar plots for categorical features with YES/NO overlay ✅
+Create histograms for numerical features with YES/NO overlay ✅
 Analyze which features influence subscription
 
 2.3 Contingency Tables
-Create contingency tables:
-Feature vs Target
+Create contingency tables: ✅
+Feature vs Target 
 Calculate proportions and patterns
 
 2.4 EDA Insights Summary
